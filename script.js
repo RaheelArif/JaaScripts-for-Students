@@ -1,7 +1,14 @@
-var city ;
-city = " islamabad ";
-alert(city);
+// var num = 5;
+// var newNumber = num / 2;
 
-// var city = " jaranwala "
-// city = " faisalabad "
-// alert (city) ;
+
+// var num = 10;
+
+// var newNumber = ++num;
+
+// newNumber = num--;
+// alert(newNumber + " and " + num);
+
+var sum = (2 + 5) * 3;
+
+alert(sum);

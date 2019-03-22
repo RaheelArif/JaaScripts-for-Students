@@ -1,30 +1,54 @@
+var SAT = 5;
+var avg = 4;
+var GPA = 5;
+var sport = 5;
 
 
-var x = 50;
-var y = prompt("enter a number")
-var scoor = 0;
-if ( x > y){
-    alert("your value is less then 50") ;
-    scoor++;
 
+
+if (SAT > avg || GPA > "aksd fkjahsd fk" || sport === "football") {
+alert("Welcome to Bubba State!");
 }
-alert("your scoor is = " + scoor)
+else {
+alert("Have you looked into appliance repair?");
+}
 
 
 
+// var rehman = prompt("rehman is there?  yess or no ");
 
+// var suit = prompt("his suit colour is white ? yess or no");
 
-// var country = "Pakistan" ;
-// var myCountry = prompt("enter your city");
-// if ( country !== myCountry) {
-//     alert("congratulations you are in the country " + myCountry);
+// if(rehman === "yess" ||  suit === "yess" ) {
+//     alert("throw ink on him");
+// }else{
+//     alert("give him 2000 RS so he can buy a suit")
 // }
 
 
 
 
-// var country = "Pakistan" ;
-// var myCountry = prompt("enter your city");
-// if ( country === myCountry) {
-//     alert("congratulations you are in Islamic country , that is " + myCountry);
+// var rehman = prompt("rehman is there?  yess or no ");
+
+// var suit = prompt("his suit colour is white ? yess or no");
+
+// if(rehman === "yess" && suit === "yess" ) {
+//     alert("throw ink on him");
+// }else{
+//     alert("give him 2000 RS so he can buy a suit")
 // }
+
+
+
+// var a = 5;
+// var b = prompt("enter a number");
+// var scoor = 0;
+// if(a > b){
+//     alert("your number is les then 5")
+//     scoor++;
+
+// } else{
+//     alert("your number is greater then 5")
+//     scoor--;
+// }
+// alert("your scoor is = " + scoor);

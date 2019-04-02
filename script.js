@@ -1,20 +1,41 @@
 var cities = ["jrw", "fsd", "isb", "karachi" , "multan", "lahore"];
-cities.splice(1, 0, "pindi" , "gijrat", "khaniwal");
-alert(cities[1])
+
+console.log("console window")
+
+var name = false;
+for( var i = 0; i < cities.length; i++ ){
+    if(cities[i] === "isb"){
+        name = true; 
+    }
+
+    if(name === true){
+       alert("value found ") 
+    }else{
+        alert("value not found")
+    }
+
+}
 
 
-// var newCities = cities.slice(1 , 4);
-// alert(newCities[1])
 
-// cities.shift();
+
+
+
+
+
+// for( var i = 0; i < cities.length; i++ ){
+//    console.log(i)
+// }
+
+
 // alert(cities[0]);
-// cities.unshift();
-// alert(cities[0]);
+// alert(cities[1]);
+// alert(cities[2]);
+// alert(cities[3]);
 
 
 
-// cities[3] = "gujrat";
-// cities.push("murree");
-// alert(cities[4])
-// cities.pop();
-// alert("after poping " + cities[4])
+
+
+
+

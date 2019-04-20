@@ -1,31 +1,35 @@
-var a = "we are learning javascript!";
-var found = prompt("enter a letter to find in this string")
-for(var i = 0; i <= a.length; i++ ){
-    if(a.charAt(i) === found){
-        alert("value found")
-        break;
+
+
+function counting(a, b) {
+    for (var i = a; i <= b; ++i) {
+        console.log(i)
     }
 }
+var x = prompt();
+var y = prompt();
 
-
-
-
-// console.log(a.charAt(4));
-
-
-// console.log(a.lastIndexOf(" "))
-
-
-// console.log(a.length);
-// alert(a.indexOf("javascript"))
+counting(x, y)
 
 
 
 
 
-// console.log(a.slice(3,6));
+// function abc(a){
+// var today = new Date();
+// var myDate = new Date(a);
+// var reminder = myDate - today;
+// var days = reminder / (1000 * 60 * 60 * 24) ; 
+// var Day = Math.floor(days)
+// return Day
+// }
+// var remainigDays = abc("January 1, 2020");
+// alert(remainigDays);
 
-// console.log(a.slice(3));
+
+
+
+
+
 
 
 

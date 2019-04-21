@@ -1,33 +1,34 @@
 
 
-function counting(a, b) {
-    for (var i = a; i <= b; ++i) {
-        console.log(i)
+function calculator(){
+    var a = Number(document.getElementById("firstNumber").value) ;
+    var b = Number(document.getElementById("secondNumber").value);  ;
+    var operation = document.getElementById("operation").value;
+    switch(operation){
+        case "+":
+        var answer = a + b
+        document.write("answer is = " + answer);
+        break;
+    
+        case "-":
+        var answer = a - b
+        document.write("answer <br>  is = " +  answer);
+        break;
+    
+        case "*":
+        var answer = a * b
+        document.write("answer is = " +  answer);
+        break;
+    
+        case "/":
+        var answer = a / b
+        document.write("answer is = " +  answer);
+        break;
+        default:
+        alert("please select right operation")
+    
     }
 }
-var x = prompt();
-var y = prompt();
-
-counting(x, y)
-
-
-
-
-
-// function abc(a){
-// var today = new Date();
-// var myDate = new Date(a);
-// var reminder = myDate - today;
-// var days = reminder / (1000 * 60 * 60 * 24) ; 
-// var Day = Math.floor(days)
-// return Day
-// }
-// var remainigDays = abc("January 1, 2020");
-// alert(remainigDays);
-
-
-
-
 
 
 

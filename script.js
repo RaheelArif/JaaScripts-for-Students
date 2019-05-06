@@ -2,6 +2,9 @@
 
 
 
+var a = 123.123;
+var b = a.toFixed(2);
+alert(b);
 
 
 
@@ -10,40 +13,29 @@
 
 
 
-function changeColor(){
-    var number = Math.random();
-    var updatedNumber = Math.floor((number * 6) + 1);
-    var a = document.getElementById("h1");
-    switch(updatedNumber){
-        case 1:
-        a.className = "one";
-        break;
-        case 2:
-        a.className = "two";
-        break;
-        case 3:
-        a.className = "three";
-        break;
-        case 4:
-        a.className = "four";
-        break;
-        case 5:
-        a.className = "five";
-        break;
-        default:
-        a.className = "six";
+// function abc() {
 
-
-    }
-}
+// var b = document.getElementById("div");
+//    var a = b.getElementsByTagName('p');
+//    alert(a.length)
+  
+// }
 
 
 
 
 
 
-function abc(b){
 
-    var a =  document.getElementById(b).value ;
-   document.getElementById("settingValue").value = a;
-}
+
+
+
+
+// function abc () {
+//    var a = document.getElementsByTagName('p');
+//    a[0].innerHTML = "coming from javascript"
+// }
+// function abc () {
+//    var a = document.getElementsByTagName('p');
+       // alert(a[2].innerHTML);
+// }

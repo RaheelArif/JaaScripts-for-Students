@@ -1,0 +1,24 @@
+.one{
+    display: inline;
+    color: brown;
+}
+.two{
+    display: inline;
+    color: blue;
+}
+.three{
+    display: inline;
+    color: rgb(42, 136, 165);
+}
+.four{
+    display: inline;
+    color: rgb(218, 240, 21);
+}
+.five{
+    display: inline;
+    color: rgb(0, 245, 20);
+}
+.six{
+    display: inline;
+    color: rgb(255, 2, 221);
+}
